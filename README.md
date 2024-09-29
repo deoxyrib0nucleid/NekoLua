@@ -1,6 +1,8 @@
 # NEKOLUA
 ### The most braindead and generic VM based lua obfuscator!
 
+Hey! I have been in this community for around 4 months now (Currently September 29, 2024 while writing this) and I want to retire for a little bit and relax, I will eventually come back in the lua obfuscation community but for now, this will be currently my last obfuscation project -from oxidanedev
+
 ## How to use?
 1. Download the github repository and place it to a folder in your pc
 2. Open cmd or powershell
@@ -24,6 +26,10 @@
 * Stravant: lua minifier library
 
 lmk if i forgot to credit some people
+
+## WARNING
+I will DMCA immediately those people who fork this without publishing the forked source as a fork of my project when I am informed.
+DMCA Request (discord username): deoxyrib0nucleid
 
 ## LICENSE
 ### Registered under AGPL-3.0
