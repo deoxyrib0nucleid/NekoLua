@@ -1,7 +1,7 @@
 local Parts = {
     Variables = [=[
 -- Generic Helpers
-local LuaFunc, WrapState, BcToState
+local LuaFunc, WrapState, BcToState, gChunk;
 local FIELDS_PER_FLUSH = 50
 local Select = select;
 
@@ -146,7 +146,7 @@ function BcToState(Bytecode)
 		return Str;
 	end;
 
-    local function gChunk()
+    function gChunk()
         local Chunk = {
             Upvals = gBits8(),
             Args = gBits8(),

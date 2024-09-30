@@ -1,3 +1,1 @@
-print("Hello World")
-
--- Paste your scripts in this file!
+-- Paste your script here!

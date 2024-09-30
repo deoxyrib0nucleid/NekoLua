@@ -12,6 +12,20 @@ local function Generate(...)
         Out = Out .. "\n" .. Code;
     end;
 
+    local function GenerateVariable(length)
+        local charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        local result = {}
+        
+        math.randomseed(os.clock()^math.random(2,5))
+    
+        for i = 1, length do
+            local rand = math.random(1, #charset)
+            table.insert(result, charset:sub(rand, rand))
+        end
+    
+        return table.concat(result)
+    end
+
     local function Encode(Str)
         local out = ""
 
