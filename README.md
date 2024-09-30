@@ -31,5 +31,8 @@ lmk if i forgot to credit some people
 I will DMCA immediately those people who fork this without publishing the forked source as a fork of my project when I am informed.
 DMCA Request (discord username): deoxyrib0nucleid
 
+## WARNING (again)
+DO NOT CHANGE THE CODE IN THE NODE_MODULES FOLDER OR REINSTALL THEM, THERE IS A POSSIBLITY THAT IT MIGHT BREAK THE EXPECTED OBFUSCATED OUTPUT (they are heavily modified to meet the control flow generation needs)
+
 ## LICENSE
 ### Registered under AGPL-3.0
