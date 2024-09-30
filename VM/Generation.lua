@@ -38,7 +38,7 @@ local function Generate(...)
 
     -- Add(VMStrings.DEBUGGER)
 
-    Add("nekolua,v1,alpha,__,_ = 'This file was protected by NekoLua Alpha 1.0 at deoxyrib0nucleid', function()end, true, 1, 0")
+    Add("nekolua,v1,alpha,__,_ = 'This file was protected by NekoLua Alpha 1.2 at deoxyrib0nucleid', function()end, true, 1, 0")
     Add(VMStrings.Variables)
     Add(VMStrings.Deserializer)
     Add(VMStrings.Wrapper_1)
