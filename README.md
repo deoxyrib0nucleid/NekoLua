@@ -23,7 +23,11 @@ Hey! I have been in this community for around 4 months now (Currently September 
 * Kein-Hong Man: for lua compiler in lua (yueliang)
 * IB2 Owners: for several tests ran and also benchmark code
 * xiedacon: fs library
-* Stravant: lua minifier library
+* Stravant: old lua minifier library
+* fstirlitz: lua parsing library in javascript
+* Mathias Bynens: lua minifier based of fstirlitz's lua parser.
+* Herrtt: alternative lua parsing library that comes with a beautifier, minifier, and uglifier
+* wavetilt: lua code generation from fstirlitz's lua parser AST output.
 
 lmk if i forgot to credit some people
 
